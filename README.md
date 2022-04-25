@@ -35,7 +35,7 @@ open a terminal and run the following command RUN  -
 `nodemon`
 
 ### STEP 3 (run the client)
-OPEN TWO DIFFERENT BROWSERS AND RUN   
+OPEN TWO DIFFERENT BROWSERS/ TWO NEW TABS AND RUN   
 `http://localhost:9000/client/index.html`
 
 ### STEP 4 (run the server)
