@@ -1,3 +1,6 @@
+#solution
+Check instructions.md for the solution
+#Question
 # Circles node-exercise (chat)
 
 In this exercise you will need to add logic to that application so we could perform both **Initial task** and **Chat tasks** by using Rest http requests.
