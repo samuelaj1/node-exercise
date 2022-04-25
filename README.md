@@ -1,26 +1,19 @@
-# Circles node-exercise (chat)
+# SOLUTION TO THE TASK
 
-In this exercise you will need to add logic to that application so we could perform both **Initial task** and **Chat tasks** by using Rest http requests.
+###Folder Structure
+####client
+`/node-exercise/public/client`
 
-At the end of the exercise you will need to supply the list of the http requests you used. You could also provide logs.
+####server
+`/node-exercise/src/`
 
-### Services
-
-Both `db.js` and `redis.js` "store" data on RAM and NOT using a real servers.
-
-##### DB
-
-You will need to implement DB methods which ilustrate the conneciton between the DB server and the node application. Please implement the new methods in the same manner as the exsiting methods implemented right now, means, every method return a Promise.
-
-(After creating schemes for the relevant tables and implement the Api to these tables you can write hard coded data in these tables, so when you will restart the node, you will start with existing data)
-
-## Initial Tasks
+## PROJECT SOLUTION INCLUDES
 
 - **create accounts** (minimum 3)
 - **create groups** (minimum 2)
-- **associate accounts to group:** We would like to be able to fetch from DB all account groups (by accountId) and all group accounts (by groupId).
+- **associate accounts to group:** That is- fetch from DB all account groups (by accountId) and all group accounts (by groupId).
 
-## Chat Tasks (Nice to have)
+## Chat Tasks
 
 - **post message to group channel**
 - **fetch messages from group channel**
@@ -28,4 +21,25 @@ You will need to implement DB methods which ilustrate the conneciton between the
 - **handle group channel typing member/s changes:** Client should know if someone is typing at the moment.
 - **handle message viewed (as in whatsapp:** Client should know who "saw" his message.
 
-These tasks require to expend the scheme of **Messages** table, and/or to create new table/s, using **Redis** in a good manner. It's all up to you, feel free to implement it in the best way you can think of.
+##KINDLY FOLLOW THESE INSTRUCTIONS TO RUN THE PROJECT
+
+### STEP 1
+In the root of the project ie cd /node-exercise
+
+RUN  - `npm install`
+
+### STEP 2
+open a terminal and run the following command RUN  - 
+
+`nodemon`
+
+### STEP 3
+OPEN TWO DIFFERENT BROWSERS AND RUN   
+`http://localhost:9000/client/index.html`
+
+### STEP 4
+Server base url
+`http://localhost:9000/api/`
+
+###Documentation to endpoints can be found here
+https://documenter.getpostman.com/view/8854544/UyrBjbvR
