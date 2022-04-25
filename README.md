@@ -42,5 +42,5 @@ OPEN TWO DIFFERENT BROWSERS AND RUN
 Server base url
 `http://localhost:9000/api/`
 
-### Documentation to endpoints can be found here
+### Documentation to the endpoints can be found here
 https://documenter.getpostman.com/view/8854544/UyrBjbvR
