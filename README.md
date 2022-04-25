@@ -1,10 +1,11 @@
 # SOLUTION TO THE TASK
 
-###Folder Structure
-####client
+## FOLDER STRUCTURE
+
+### CLIENT
 `/node-exercise/public/client`
 
-####server
+### SERVER
 `/node-exercise/src/`
 
 ## PROJECT SOLUTION INCLUDES
@@ -21,7 +22,7 @@
 - **handle group channel typing member/s changes:** Client should know if someone is typing at the moment.
 - **handle message viewed (as in whatsapp:** Client should know who "saw" his message.
 
-##KINDLY FOLLOW THESE INSTRUCTIONS TO RUN THE PROJECT
+## KINDLY FOLLOW THESE INSTRUCTIONS TO RUN THE PROJECT
 
 ### STEP 1
 In the root of the project ie cd /node-exercise
@@ -41,5 +42,5 @@ OPEN TWO DIFFERENT BROWSERS AND RUN
 Server base url
 `http://localhost:9000/api/`
 
-###Documentation to endpoints can be found here
+### Documentation to endpoints can be found here
 https://documenter.getpostman.com/view/8854544/UyrBjbvR
