@@ -38,7 +38,7 @@ open a terminal and run the following command RUN  -
 OPEN TWO DIFFERENT BROWSERS AND RUN   
 `http://localhost:9000/client/index.html`
 
-### STEP 4
+### STEP 4 (run the server)
 Server base url
 `http://localhost:9000/api/`
 
